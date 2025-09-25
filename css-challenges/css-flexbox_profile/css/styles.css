@@ -19,6 +19,11 @@ h2 {
   color: #3f0097;
 }
 
+.image-wrapper {
+  display: flex;
+justify-content: center;
+}
+
 .profile__image {
   object-fit: cover;
   border-radius: 999px;
@@ -30,6 +35,9 @@ h2 {
 .tech-stack__list {
   list-style: none;
   padding-left: 0;
+  display: flex;
+gap: 10px;
+flex-wrap: wrap;
 }
 
 .tech-stack__list-item {
@@ -38,3 +46,4 @@ h2 {
   color: #ffffff;
   border-radius: 10px;
 }
+

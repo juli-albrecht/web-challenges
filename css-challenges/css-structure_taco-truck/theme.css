@@ -1,0 +1,13 @@
+:root {
+  --body-bg: #fddcd2;
+
+  --header-bg: rgb(32, 30, 29);
+  --header-text: rgb(239, 180, 215);
+
+  --main-bg: rgb(250, 236, 208);
+  --main-text: rgb(32, 30, 29);
+  --main-title-bg: rgb(239, 180, 215);
+
+  --card-bg: rgb(209, 239, 156);
+  --card-text: rgb(32, 30, 29);
+}
