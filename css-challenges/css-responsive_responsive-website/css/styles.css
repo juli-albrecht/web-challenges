@@ -161,6 +161,7 @@ body {
   height: 250px;
   font-size: 1.5rem;
   box-shadow: 0px 0px 10px 0px var(--inky-black);
+
 }
 
 .--forest {
@@ -240,7 +241,20 @@ CSS based on conditions such as viewport width, etc. */
 
 /* Media Query Tablet */
 /* --- */
-/* Replace this comment with your media query. */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .card-section {
+    display: grid;
+grid-template-columns: 2;
+grid-template-rows: 4;
+
+  }
+
+  .product-card {
+    width: 40%;
+
+  }
+}
 /* --- */
 
 /* Media Query Desktop */
