@@ -1,12 +1,14 @@
 import "./styles.css";
 import { Header } from "./components/Header.jsx";
+import { Navigation } from "./components/Navigation.jsx";
 import avatar from "./img/avatar.jpg";
 import logo from "./img/logo.jpg";
 
 export default function App() {
   return (
     <>
-    <Header><a href="#">
+    <Header>
+      <Navigation><a href="#">
           <img className="round-image" src={logo} alt="logo" />
         </a>
         <nav>
@@ -18,8 +20,7 @@ export default function App() {
           </a>
           <a className="navigation__link" href="#impressum">
             Impressum
-          </a>
-        </nav>
+          </a></Navigation>
         <button
           type="button"
           onClick={() => console.log("I could toggle a profile!")}
