@@ -1,13 +1,12 @@
 import "./styles.css";
-
+import { Header } from "./components/Header.jsx";
 import avatar from "./img/avatar.jpg";
 import logo from "./img/logo.jpg";
 
 export default function App() {
   return (
     <>
-      <header className="header">
-        <a href="#">
+    <Header><a href="#">
           <img className="round-image" src={logo} alt="logo" />
         </a>
         <nav>
@@ -27,8 +26,8 @@ export default function App() {
           aria-label="toggle profile"
         >
           <img className="round-image" src={avatar} alt="avatar" />
-        </button>
-      </header>
+        </button></Header>
+
       <main>content goes here…</main>
     </>
   );
