@@ -1,14 +1,12 @@
 export default function App() {
   return (
     <p>
-      <Greeting name="Juli" />
+      <Greeting name="Klaus" />
     </p>
   );
 }
 
 function Greeting({ name }) {
-  const coaches = [Klaus, Felix, Roland]
-  if ()
-  return <p>Hello, {name}!</p>;
-
+  const coaches = ["Klaus", "Felix", "Roland"];
+  return <p>Hello, {coaches.includes(name) ? "Coach!" : name};</p>;
 }
