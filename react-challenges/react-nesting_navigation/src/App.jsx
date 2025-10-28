@@ -5,6 +5,7 @@ import { Link } from "./components/Link.jsx";
 import { Image } from "./components/Image.jsx";
 import avatar from "./img/avatar.jpg";
 import logo from "./img/logo.jpg";
+import { Counter, NameDisplay } from "./components/Counter.jsx";
 
 export default function App() {
   return (
@@ -27,7 +28,10 @@ export default function App() {
         </button>
       </Header>
 
-      <main>content goes here…</main>
+      <main>
+        <Counter />
+        <NameDisplay />
+      </main>
     </>
   );
 }
