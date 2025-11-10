@@ -9,7 +9,6 @@ This is why there are two boxes displayed, a green and a black one. They become 
 ### Box with Styled Components
 
 Create a new component called `BoxWithStyledComponents`. It should feature the same styling as `BoxWithClassName`.
-
 You can use the following hints as guideline:
 
 - Inside of the `components` folder, create a file `BoxWithStyledComponents.js`.
