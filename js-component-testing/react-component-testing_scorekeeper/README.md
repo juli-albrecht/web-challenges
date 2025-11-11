@@ -19,6 +19,8 @@ Start the app and have a look at it in the browser: `npm run dev`
 Discuss in the group:
 
 - Which features should be tested?
+ - Is form submitted correctly?
+ - 
 - Which features should **not** be tested?
 
 ### Writing Component Tests
